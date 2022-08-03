@@ -75,3 +75,33 @@ $(document).ready(function () {
 //     document.getElementById("navbar").style.padding = "80px 10px";
 //   }
 // }
+
+//  img gellary
+ // show lightbox
+ document.addEventListener('click', function(event) {
+    if (!event.target.matches('.open')) return;
+    document.querySelector('body').classList.add('fixed')
+  }, false);
+
+  document.addEventListener(
+    "keydown", (e) => {
+      if (e.keyCode == 13) {
+        document.activeElement.click();
+        document.querySelector('body').classList.add('fixed')
+      }
+    }, false);
+
+  // hide lightbox
+  document.addEventListener('click', function(event) {
+    if (!event.target.matches('.close')) return;
+    document.querySelector('body').classList.remove('fixed')
+  }, false);
+
+  // esc key to close
+  document.addEventListener(
+    "keydown", (e) => {
+      if (e.keyCode == 27) {
+        document.activeElement.querySelector('.close').click();
+        document.querySelector('body').classList.remove('fixed');
+      }
+    }, false);
