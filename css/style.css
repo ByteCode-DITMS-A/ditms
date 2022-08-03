@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 :root{
@@ -458,6 +459,7 @@ h3 {
 
 footer.footer{
     height: auto;
+    /* width:99.99%; */
     background: var(--bg-color);
     position: relative;
 }
@@ -1205,7 +1207,7 @@ padding: 5%;
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../assets/Abract01.png');
+    background: url("../eduford_img/Abract01.png");
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
@@ -1265,3 +1267,9 @@ section .container .owl-nav{
 
 
 /* -------x------- Blog Carousel -----x------ */
+
+/* main .blog-two{
+    background-color: #d2d8d6;
+    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+    
+} */
