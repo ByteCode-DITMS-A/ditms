@@ -977,7 +977,7 @@ padding: 5%;
   }
   
   /* Show only on bigger screens */
-  @media (min-width: 820px) {
+  @media (max-width: 820px) {
     label {
       display: inline-block;
     }
@@ -1206,6 +1206,14 @@ main .blog{
     width: 100%;
     background-size: 65%;
 }
+main .blog-two{
+    background: url("../eduford_img/23450101.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+}
 
 main .blog .blog-post{
     padding-top: 6rem;
@@ -1259,9 +1267,3 @@ section .container .owl-nav{
 
 
 /* -------x------- Blog Carousel -----x------ */
-
-/* main .blog-two{
-    background-color: #d2d8d6;
-    background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
-    
-} */
