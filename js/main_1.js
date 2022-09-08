@@ -61,20 +61,20 @@ $(document).ready(function () {
         // navbar
 
         
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-    
-  } else {
-    navbar.classList.remove("sticky")
-  
-  }
-}
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//     document.getElementById("navbar").style.padding = "30px 10px"
+//   } else {
+//     navbar.classList.remove("sticky")
+//     document.getElementById("navbar").style.padding = "80px 10px";
+//   }
+// }
 
 //  img gellary
  // show lightbox
