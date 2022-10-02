@@ -692,8 +692,7 @@ padding: 5%;
 }
 .about-col-2 .msp-mndl .logo-3{
     position: relative;
-    margin-right: 40%;
-    margin-left: 40%;
+margin: 0 50% 0 50% ;
 
 }
 
